@@ -1,7 +1,11 @@
 
 import { useState } from 'react';
 import Data from './component/Data';
-import './App.css'
+{
+  /* The following line can be included in your src/index.js or App.js file */
+}
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import './App.css'
 import LeftChild from './component/LeftChild';
 import RightChild from './component/RightChild';
 
@@ -20,7 +24,7 @@ function App() {
 
 
   return (
-    <div className='position-child'>
+    <div className='d-flex bg-dark justify-content-center gap-4'>
     <LeftChild data={Data} handleClick={handleClick} selectedId={selectedId} />
     <RightChild  product={selectedProduct} />
   </div>
