@@ -1,0 +1,12 @@
+.right-child{
+    margin-top: 100px;
+    border: 1px solid white;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px 30px rgba(0, 0, 0, 0.2);
+
+  }
+  .right-child-item{
+    padding: 30px;
+    color:cadetblue;
+  }

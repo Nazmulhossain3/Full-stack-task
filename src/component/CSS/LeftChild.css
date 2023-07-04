@@ -1,0 +1,32 @@
+.left-child{
+   
+    list-style: none;
+    margin-bottom: 8px;
+    border: 1px solid black;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: green;
+  
+   
+    
+}
+.left-child a{
+    text-decoration: none;
+    color: white;
+    
+   
+    
+}
+
+.left-child:hover{
+    background-color: tomato;
+    transition: all 1s;
+}
+
+.left-child-div{
+    
+ 
+}

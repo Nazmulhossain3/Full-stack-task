@@ -1,0 +1,11 @@
+
+.position-child{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 150px;
+  background-color: #252734;
+  color: white;
+
+  
+}
